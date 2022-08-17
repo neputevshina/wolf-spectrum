@@ -2,6 +2,13 @@
 - Status bar with frequency is at the top of window.
 - Something else later.
 
+## What I want from a spectrogram plugin:
+- Right-to-left spectrum flow.
+- Bar ruler (you know, the tempo).
+- A framebuffer synchronized with transport. Like, the part that was recently played is placed after or before current playhead.
+- Bandpass frequency on click (like in SPAN, MAnalyzer or in Fabfilter plugins on middle click).
+- A some simple piano roll maybe? Could help with pitching based on source.
+
 # Wolf Spectrum
 [![Build Status](https://img.shields.io/github/workflow/status/wolf-plugins/wolf-spectrum/Wolf%20Spectrum%20CI.svg?logo=github)](https://github.com/wolf-plugins/wolf-spectrum/actions?query=workflow%3A%22Wolf+Spectrum+CI%22)
 
