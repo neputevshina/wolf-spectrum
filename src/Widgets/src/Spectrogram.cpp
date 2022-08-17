@@ -159,7 +159,7 @@ void Spectrogram::onResize(const ResizeEvent &ev)
     fScrollingTexture.setSize(ev.size);
 
     fStatusBar.setWidth(ev.size.getWidth());
-    fStatusBar.setAbsolutePos(0, getHeight() - StatusBar::DEFAULT_HEIGHT);
+    fStatusBar.setAbsolutePos(0, getHeight());
 
     repositionRulers();
 }
